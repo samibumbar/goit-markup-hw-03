@@ -1,0 +1,168 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #ffffff;
+  --hover-color: #2196f3;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --border-color: #ececec;
+  --roboto-font: 'Roboto' sans-serif;
+  --raleway-font: 'Raleway' sans-serif;
+}
+body {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-family: var(--roboto-font);
+}
+/*Header section*/
+.logo .logo-link {
+  font-family: var(--raleway-font);
+  font-size: 26px;
+  line-height: 30.52px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.logo .logo-link .studio .span {
+  color: var(--hover-color);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 16.41px;
+  font-size: 14px;
+  font-family: inherit;
+}
+.nav-contact {
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-contact:hover,
+.nav-contact:focus {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-color);
+}
+.header__nav-list {
+  list-style: none;
+}
+/*Main section*/
+/*Hero section*/
+.hero-section {
+  background-color: var(--primary-background-color);
+}
+.hero-section__title {
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--white-color);
+  font-weight: 900;
+}
+.hero-section__btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--white-color);
+  background-color: var(--hover-color);
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+/*About us section*/
+.about-us-section__list {
+  list-style: none;
+}
+.about-us-section__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+}
+.about-us-section__information {
+  line-height: 24px;
+}
+.custom-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+}
+/*Team section*/
+.team-section {
+  background-color: var(--secondary-background-color);
+}
+.team-section__h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+}
+.team-section__subtitle {
+  font-size: 16px;
+  line-height: 18.75px;
+  color: var(--secondary-text-color);
+}
+/*Footer section*/
+.footer-section {
+  background-color: var(--primary-background-color);
+  color: var(--white-color);
+}
+.address-list {
+  list-style: none;
+}
+
+.address-list__links {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.address-list__links:hover,
+.address-list__links:focus {
+  text-decoration: underline;
+  color: var(--hover-color);
+}
+.footer-section .logo-link {
+  color: var(--white-color);
+}
+/*Portofolio*/
+
+.btn-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 8px;
+}
+.btn-item {
+  background-color: var(--secondary-background-color);
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.btn-item:hover,
+.btn-item:focus {
+  color: var(--white-color);
+  background-color: var(--hover-color);
+  cursor: pointer;
+}
+/* About us section */
+.our-projects__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.our-projects__subtitle {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--secondary-text-color);
+}
