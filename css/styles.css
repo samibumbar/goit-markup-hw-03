@@ -131,6 +131,7 @@ body {
   align-items: center;
   gap: 30px;
   list-style: none;
+  padding-bottom: 94px;
 }
 .about-us-section__title {
   font-size: 14px;
